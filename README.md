@@ -17,7 +17,7 @@ Given a 1D sequence of length n, we aim to generate an optimal sequence using a 
 
 Mathematically, the validity and uniqueness constraints are formulated as a Hamiltonian:
 
-H_total = P_validity  + P_unique
+H_total = P_validity.H_validity  + P_unique.H_unique
 
 where:
 - H_validity enforces that each position in the sequence has a valid symbol.
